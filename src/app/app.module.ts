@@ -3,6 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
@@ -30,6 +32,7 @@ import { HomeDestaqueTopvisitComponent } from './components/views/Produtos/home-
 import { BuscaCategoriaComponent } from './components/views/Produtos/busca/busca-categoria/busca-categoria.component';
 import { BuscaProdutoComponent } from './components/views/Produtos/busca/busca-produto/busca-produto.component';
 import { PagenotfoundComponent } from './components/template/pagenotfound/pagenotfound.component';
+import { CarouselHomeComponent } from './components/template/carousel-home/carousel-home.component';
 
 
 
@@ -59,13 +62,16 @@ import { PagenotfoundComponent } from './components/template/pagenotfound/pageno
     HomeDestaqueTopvisitComponent,
     BuscaCategoriaComponent,
     BuscaProdutoComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
+    CarouselHomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MatToolbarModule,
-    MatIconModule
+    MatIconModule,
+    CarouselModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

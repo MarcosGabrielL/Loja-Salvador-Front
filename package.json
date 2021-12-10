@@ -20,8 +20,13 @@
     "@angular/platform-browser": "~12.2.0",
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
+    "@ng-bootstrap/ng-bootstrap": "^10.0.0",
+    "angular-responsive-carousel": "^2.1.2",
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "ngx-owl-carousel-o": "^7.0.1",
     "rxjs": "~6.6.0",
-    "tslib": "^2.3.0",
+    "tslib": "^2.3.1",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
