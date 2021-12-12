@@ -23,25 +23,30 @@
 }
 
 .discount1 {
-    background-color: #6CC947;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-left: 4px;
-    padding-right: 4px;
-    font-size: 10px;
+    background-color: #F80032;
+    /* padding-top: 1px; */
+    /* padding-bottom: 1px; */
+    /* padding-left: 4px; */
+    /* padding-right: 4px; */
+    font-size: 17px;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    text-align: center;
     border-radius: 6px;
-    color: #fff
+    color: #fff;
+    border-radius: 50px;
+        padding-top: 12px;
 }
 
 .wishlist1 {
-    height: 25px;
+        height: 25px;
     width: 25px;
-    background-color: #eee;
+    /* background-color: #eee; */
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 .first1 {
@@ -52,18 +57,18 @@
 
 .dress-name1 {
     font-size: 13px;
-    font-weight: bold;
     width: 75%
+    text-align: center;
 }
 
 .new-price1 {
     font-size: 13px;
     font-weight: bold;
-    color: red
+    color: #0086FF
 }
 
 .old-price1 {
-    font-size: 8px;
+    font-size: 13px;
     font-weight: bold;
     color: grey
 }
@@ -161,12 +166,12 @@
 
 .rating-number {
     font-size: 10px;
-    color: grey
+    color: #000
 }
 
 .buy {
     font-size: 12px;
-    color: purple;
+    color: #333;
     font-weight: 500
 }
 
@@ -223,13 +228,41 @@
 	    display: none;
 	}
 }
+.pt-1{
+    color: #6CC947;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: none;
+    border: 1px solid #6CC947;
+    padding: 6px 14px;
+    margin-top: 5px;
+    line-height: 16px;
+    border-radius: 20px;
+}
+.product-detail-container1 {align-items: center;
+    text-align: center;}
+.product-detail-container1 h4{
+        font-size: 18px;
+}
+.product-detail-container1 p{
+        font-size: 18px;
+}
+.product-detail-container1 s{
+        margin-right: 15px;
+}
+.first1 i{color: #fff;}
 
+.btn{
+    background-color: #333;
+        border-color: #333;
+}
 </style>
 
 
 
 <!-- TITULO -->
-<div class="jj" style="margin-left: 5%; margin-right: 5%; margin-top: 20px;">
+<div class="jj" style="margin-left: 5%; margin-right: 5%; margin-top: 0px;">
     <h1 class="right ">Cooorre que é só hoje</h1>
    
 <!-- Balões -->
@@ -288,21 +321,15 @@
             <div class="card1">
                 <div class="image-container1">
                     <div class="first1">
-                        <div class="d-flex justify-content-between align-items-center"> <span class="discount1">-25%</span> <span class="wishlist1"><i class="fa fa-heart-o"></i></span> </div>
-                    </div> <img src="https://i.imgur.com/8JIWpnw.jpg" class="img-fluid rounded thumbnail-image1">
+                        <div class="d-flex justify-content-between align-items-center"> <span class="discount1">-25%</span> <span class="wishlist1"><i class="fa fa-heart"></i></span> </div>
+                    </div> <img src="https://www.lapolar.cl/dw/image/v2/BCPP_PRD/on/demandware.static/-/Sites-master-catalog/default/dw6f66f650/images/large/2CC23443325.JPG?sw=1200&sh=1200&sm=fit" class="img-fluid rounded thumbnail-image1">
                 </div>
                 <div class="product-detail-container1 p-2">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <h5 class="dress-name1">White traditional long dress</h5>
-                        <div class="d-flex flex-column mb-2"> <span class="new-price1">$3.99</span> <small class="old-price1 text-right">$5.99</small> </div>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center pt-1">
-                        <div class="color-select d-flex "> <input type="button" name="grey" class="btn1 creme1"> <input type="button" name="red" class="btn1 red ml-2"> <input type="button" name="blue" class="btn1 blue ml-2"> </div>
-                        <div class="d-flex "> <span class="item-size1 mr-2 btn1" type="button">S</span> <span class="item-size1 mr-2 btn1" type="button">M</span> <span class="item-size1 btn1" type="button">L</span> </div>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center pt-1">
-                        <div> <i class="fa fa-star-o rating-star"></i> <span class="rating-number">4.8</span> </div> <span class="buy">BUY +</span>
-                    </div>
+                     <div class="thumb-content">
+                  <h4>Sony Headphone</h4>  
+                  <p class="item-price"><s>$25.00</s> <b>$23.99</b></p>
+                  <a href="#" class="btn btn-primary">Add ao Carrinho</a>
+                </div>
                 </div>
             </div>
             <div class="mt-3">
@@ -322,21 +349,15 @@
             <div class="card1">
                 <div class="image-container1">
                     <div class="first1">
-                        <div class="d-flex justify-content-between align-items-center"> <span class="discount1">-25%</span> <span class="wishlist1"><i class="fa fa-heart-o"></i></span> </div>
-                    </div> <img src="https://i.imgur.com/PtepOpe.jpg" class="img-fluid rounded thumbnail-image1">
+                        <div class="d-flex justify-content-between align-items-center"> <span class="discount1">-25%</span> <span class="wishlist1"><i class="fa fa-heart"></i></span> </div>
+                    </div> <img src="https://www.lapolar.cl/dw/image/v2/BCPP_PRD/on/demandware.static/-/Sites-master-catalog/default/dw6f66f650/images/large/2CC23443325.JPG?sw=1200&sh=1200&sm=fit" class="img-fluid rounded thumbnail-image1">
                 </div>
                 <div class="product-detail-container1 p-2">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <h5 class="dress-name1">Long sleeve denim jacket</h5>
-                        <div class="d-flex flex-column mb-2"> <span class="new-price1">$3.99</span> <small class="old-price1 text-right">$5.99</small> </div>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center pt-1">
-                        <div class="color-select d-flex "> <input type="button" name="grey" class="btn1 creme1"> <input type="button" name="darkblue" class="btn1 darkblue ml-2"> </div>
-                        <div class="d-flex "> <span class="item-size1 mr-2 btn1" type="button">S</span> <span class="item-size1 mr-2 btn1" type="button">M</span> <span class="item-size1 btn1" type="button">L</span> </div>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center pt-1">
-                        <div> <i class="fa fa-star-o rating-star"></i> <span class="rating-number">4.8</span> </div> <span class="buy">BUY +</span>
-                    </div>
+                     <div class="thumb-content">
+                  <h4>Sony Headphone</h4>  
+                  <p class="item-price"><s>$25.00</s> <b>$23.99</b></p>
+                  <a href="#" class="btn btn-primary">Add ao Carrinho</a>
+                </div>
                 </div>
             </div>
             <div class="mt-3">
@@ -356,21 +377,15 @@
             <div class="card1">
                 <div class="image-container1">
                     <div class="first1">
-                        <div class="d-flex justify-content-between align-items-center"> <span class="discount1">-25%</span> <span class="wishlist1"><i class="fa fa-heart-o"></i></span> </div>
-                    </div> <img src="https://i.imgur.com/ePJKs8Q.jpg" class="img-fluid rounded thumbnail-image1">
+                        <div class="d-flex justify-content-between align-items-center"> <span class="discount1">-25%</span> <span class="wishlist1"><i class="fa fa-heart"></i></span> </div>
+                    </div> <img src="https://www.havan.com.br/media/catalog/product/cache/73a52df140c4d19dbec2b6c485ea6a50/m/a/mala-de-viagem-media-costa-rica-polo-king_212568_1.jpg" class="img-fluid rounded thumbnail-image1">
                 </div>
-                <div class="product-detail-container1 p-2">
-                    <div class="d-flex justify-content-between ">
-                        <h5 class="dress-name1">Hush Puppies</h5>
-                        <div class="d-flex flex-column mb-2"> <span class="new-price1">$3.99</span> <small class="old-price1 text-right">$5.99</small> </div>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center pt-1">
-                        <div class="color-select d-flex "> <input type="button" name="grey" class="btn1 creme1"> <input type="button" name="yellow" class="btn1 yellow ml-2"> <input type="button" name="blue" class="btn1 blue ml-2"> </div>
-                        <div class="d-flex "> <span class="item-size1 mr-2 btn1" type="button">S</span> <span class="item-size1 mr-2 btn1" type="button">M</span> <span class="item-size1 btn1" type="button">L</span> </div>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center pt-1">
-                        <div> <i class="fa fa-star-o rating-star"></i> <span class="rating-number">4.2</span> </div> <span class="buy">BUY +</span>
-                    </div>
+               <div class="product-detail-container1 p-2">
+                     <div class="thumb-content">
+                  <h4>Sony Headphone</h4>  
+                  <p class="item-price"><s>$25.00</s> <b>$23.99</b></p>
+                  <a href="#" class="btn btn-primary">Add ao Carrinho</a>
+                </div>
                 </div>
             </div>
             <div class="mt-3">
@@ -390,21 +405,15 @@
             <div class="card1">
                 <div class="image-container1">
                     <div class="first1">
-                        <div class="d-flex justify-content-between align-items-center"> <span class="discount1">-25%</span> <span class="wishlist1"><i class="fa fa-heart-o"></i></span> </div>
-                    </div> <img src="https://i.imgur.com/snffLH3.jpg" class="img-fluid rounded thumbnail-image1">
+                        <div class="d-flex justify-content-between align-items-center"> <span class="discount1">-25%</span> <span class="wishlist1"><i class="fa fa-heart"></i></span> </div>
+                    </div> <img src="https://www.lapolar.cl/dw/image/v2/BCPP_PRD/on/demandware.static/-/Sites-master-catalog/default/dw6f66f650/images/large/2CC23443325.JPG?sw=1200&sh=1200&sm=fit" class="img-fluid rounded thumbnail-image1">
                 </div>
-                <div class="product-detail-container1 p-2">
-                    <div class="d-flex justify-content-between ">
-                        <h5 class="dress-name1">Athens skirt </h5>
-                        <div class="d-flex flex-column mb-2"> <span class="new-price1">$3.99</span> <small class="old-price1 text-right">$5.99</small> </div>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center pt-1">
-                        <div class="color-select d-flex "> <input type="button" name="grey" class="btn1 creme1"> <input type="button" name="red" class="btn1 red ml-2"> <input type="button" name="blue" class="btn1 blue ml-2"> </div>
-                        <div class="d-flex "> <span class="item-size1 mr-2 btn1" type="button">S</span> <span class="item-size1 mr-2 btn1" type="button">M</span> <span class="item-size1 btn1" type="button">L</span> </div>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center pt-1">
-                        <div> <i class="fa fa-star-o rating-star"></i> <span class="rating-number">3.8</span> </div> <span class="buy">BUY +</span>
-                    </div>
+               <div class="product-detail-container1 p-2">
+                     <div class="thumb-content">
+                  <h4>Sony Headphone</h4>  
+                  <p class="item-price"><s>$25.00</s> <b>$23.99</b></p>
+                  <a href="#" class="btn btn-primary">Add ao Carrinho</a>
+                </div>
                 </div>
             </div>
             <div class="mt-3">
@@ -431,21 +440,15 @@
             <div class="card1">
                 <div class="image-container1">
                     <div class="first1">
-                        <div class="d-flex justify-content-between align-items-center"> <span class="discount1">-25%</span> <span class="wishlist1"><i class="fa fa-heart-o"></i></span> </div>
-                    </div> <img src="https://i.imgur.com/8JIWpnw.jpg" class="img-fluid rounded thumbnail-image1">
+                        <div class="d-flex justify-content-between align-items-center"> <span class="discount1">-25%</span> <span class="wishlist1"><i class="fa fa-heart"></i></span> </div>
+                    </div> <img src="https://tiendaste-ka.com/img/p/6/7/3/673-large_default.jpg" class="img-fluid rounded thumbnail-image1">
                 </div>
-                <div class="product-detail-container1 p-2">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <h5 class="dress-name1">White traditional long dress</h5>
-                        <div class="d-flex flex-column mb-2"> <span class="new-price1">$3.99</span> <small class="old-price1 text-right">$5.99</small> </div>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center pt-1">
-                        <div class="color-select d-flex "> <input type="button" name="grey" class="btn1 creme1"> <input type="button" name="red" class="btn1 red ml-2"> <input type="button" name="blue" class="btn1 blue ml-2"> </div>
-                        <div class="d-flex "> <span class="item-size1 mr-2 btn1" type="button">S</span> <span class="item-size1 mr-2 btn1" type="button">M</span> <span class="item-size1 btn1" type="button">L</span> </div>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center pt-1">
-                        <div> <i class="fa fa-star-o rating-star"></i> <span class="rating-number">4.8</span> </div> <span class="buy">BUY +</span>
-                    </div>
+              <div class="product-detail-container1 p-2">
+                     <div class="thumb-content">
+                  <h4>Sony Headphone</h4>  
+                  <p class="item-price"><s>$25.00</s> <b>$23.99</b></p>
+                  <a href="#" class="btn btn-primary">Add ao Carrinho</a>
+                </div>
                 </div>
             </div>
             <div class="mt-3">
@@ -465,21 +468,15 @@
             <div class="card1">
                 <div class="image-container1">
                     <div class="first1">
-                        <div class="d-flex justify-content-between align-items-center"> <span class="discount1">-25%</span> <span class="wishlist1"><i class="fa fa-heart-o"></i></span> </div>
-                    </div> <img src="https://i.imgur.com/PtepOpe.jpg" class="img-fluid rounded thumbnail-image1">
+                        <div class="d-flex justify-content-between align-items-center"> <span class="discount1">-25%</span> <span class="wishlist1"><i class="fa fa-heart"></i></span> </div>
+                    </div> <img src="https://tiendaste-ka.com/img/p/6/7/3/673-large_default.jpg" class="img-fluid rounded thumbnail-image1" class="img-fluid rounded thumbnail-image1">
                 </div>
-                <div class="product-detail-container1 p-2">
-                    <div class="d-flex justify-content-between align-items-center">
-                        <h5 class="dress-name1">Long sleeve denim jacket</h5>
-                        <div class="d-flex flex-column mb-2"> <span class="new-price1">$3.99</span> <small class="old-price1 text-right">$5.99</small> </div>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center pt-1">
-                        <div class="color-select d-flex "> <input type="button" name="grey" class="btn1 creme1"> <input type="button" name="darkblue" class="btn1 darkblue ml-2"> </div>
-                        <div class="d-flex "> <span class="item-size1 mr-2 btn1" type="button">S</span> <span class="item-size1 mr-2 btn1" type="button">M</span> <span class="item-size1 btn1" type="button">L</span> </div>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center pt-1">
-                        <div> <i class="fa fa-star-o rating-star"></i> <span class="rating-number">4.8</span> </div> <span class="buy">BUY +</span>
-                    </div>
+               <div class="product-detail-container1 p-2">
+                     <div class="thumb-content">
+                  <h4>Sony Headphone</h4>  
+                  <p class="item-price"><s>$25.00</s> <b>$23.99</b></p>
+                  <a href="#" class="btn btn-primary">Add ao Carrinho</a>
+                </div>
                 </div>
             </div>
             <div class="mt-3">
@@ -499,21 +496,15 @@
             <div class="card1">
                 <div class="image-container1">
                     <div class="first1">
-                        <div class="d-flex justify-content-between align-items-center"> <span class="discount1">-25%</span> <span class="wishlist1"><i class="fa fa-heart-o"></i></span> </div>
-                    </div> <img src="https://i.imgur.com/ePJKs8Q.jpg" class="img-fluid rounded thumbnail-image1">
+                        <div class="d-flex justify-content-between align-items-center"> <span class="discount1">-25%</span> <span class="wishlist1"><i class="fa fa-heart"></i></span> </div>
+                    </div> <img src="https://tiendaste-ka.com/img/p/6/7/3/673-large_default.jpg" class="img-fluid rounded thumbnail-image1" class="img-fluid rounded thumbnail-image1">
                 </div>
                 <div class="product-detail-container1 p-2">
-                    <div class="d-flex justify-content-between ">
-                        <h5 class="dress-name1">Hush Puppies</h5>
-                        <div class="d-flex flex-column mb-2"> <span class="new-price1">$3.99</span> <small class="old-price1 text-right">$5.99</small> </div>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center pt-1">
-                        <div class="color-select d-flex "> <input type="button" name="grey" class="btn1 creme1"> <input type="button" name="yellow" class="btn1 yellow ml-2"> <input type="button" name="blue" class="btn1 blue ml-2"> </div>
-                        <div class="d-flex "> <span class="item-size1 mr-2 btn1" type="button">S</span> <span class="item-size1 mr-2 btn1" type="button">M</span> <span class="item-size1 btn1" type="button">L</span> </div>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center pt-1">
-                        <div> <i class="fa fa-star-o rating-star"></i> <span class="rating-number">4.2</span> </div> <span class="buy">BUY +</span>
-                    </div>
+                     <div class="thumb-content">
+                  <h4>Sony Headphone</h4>  
+                  <p class="item-price"><s>$25.00</s> <b>$23.99</b></p>
+                  <a href="#" class="btn btn-primary">Add ao Carrinho</a>
+                </div>
                 </div>
             </div>
             <div class="mt-3">
@@ -533,21 +524,15 @@
             <div class="card1">
                 <div class="image-container1">
                     <div class="first1">
-                        <div class="d-flex justify-content-between align-items-center"> <span class="discount1">-25%</span> <span class="wishlist1"><i class="fa fa-heart-o"></i></span> </div>
-                    </div> <img src="https://i.imgur.com/snffLH3.jpg" class="img-fluid rounded thumbnail-image1">
+                        <div class="d-flex justify-content-between align-items-center"> <span class="discount1">-25%</span> <span class="wishlist1"><i class="fa fa-heart"></i></span> </div>
+                    </div> <img src="https://tiendaste-ka.com/img/p/6/7/3/673-large_default.jpg" class="img-fluid rounded thumbnail-image1" class="img-fluid rounded thumbnail-image1">
                 </div>
-                <div class="product-detail-container1 p-2">
-                    <div class="d-flex justify-content-between ">
-                        <h5 class="dress-name1">Athens skirt </h5>
-                        <div class="d-flex flex-column mb-2"> <span class="new-price1">$3.99</span> <small class="old-price1 text-right">$5.99</small> </div>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center pt-1">
-                        <div class="color-select d-flex "> <input type="button" name="grey" class="btn1 creme1"> <input type="button" name="red" class="btn1 red ml-2"> <input type="button" name="blue" class="btn1 blue ml-2"> </div>
-                        <div class="d-flex "> <span class="item-size1 mr-2 btn1" type="button">S</span> <span class="item-size1 mr-2 btn1" type="button">M</span> <span class="item-size1 btn1" type="button">L</span> </div>
-                    </div>
-                    <div class="d-flex justify-content-between align-items-center pt-1">
-                        <div> <i class="fa fa-star-o rating-star"></i> <span class="rating-number">3.8</span> </div> <span class="buy">BUY +</span>
-                    </div>
+               <div class="product-detail-container1 p-2">
+                     <div class="thumb-content">
+                  <h4>Sony Headphone</h4>  
+                  <p class="item-price"><s>$25.00</s> <b>$23.99</b></p>
+                  <a href="#" class="btn btn-primary">Add ao Carrinho</a>
+                </div>
                 </div>
             </div>
             <div class="mt-3">
