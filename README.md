@@ -1,27 +1,3 @@
 # LojaSalvadorApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.12.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCsqX3G2Ud9tTUr0wS9nXfR3P8nhSDL-efP32kT6NDHttrpqgfHCDZbTrB81-fmSlxklDK6GcRPE-B_dqWCBuzoXVwDU5fYOl4VNPDBguvjp28Gjt1goVl9S6YgJwsuW1EHvuA9pa0ZP-7mSvP7gkPdB8tRARxb6b_xYe_h--1bx0eXRFIDWrCLQ2u0g/s1349/1.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="400" data-original-height="630" data-original-width="1349" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjCsqX3G2Ud9tTUr0wS9nXfR3P8nhSDL-efP32kT6NDHttrpqgfHCDZbTrB81-fmSlxklDK6GcRPE-B_dqWCBuzoXVwDU5fYOl4VNPDBguvjp28Gjt1goVl9S6YgJwsuW1EHvuA9pa0ZP-7mSvP7gkPdB8tRARxb6b_xYe_h--1bx0eXRFIDWrCLQ2u0g/s400/1.png"/></a></div><div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoz46e_azbfL6S0yDvLPKQLjQNgP3uJANlSha2kvGpcsvzn30lwUrRctjg6Wtqrnpf7AmCczMqWrpjlcRWAtHm6NvhpwSr0j5b_y4ElfQQUcIQFJciLmcsrnd_AzCOBZuRpSJVeWOBKFruvkMB1-vCQzQq6kd3Y5nsiKGaBr8T-EZtaReLRYVFPgfdRw/s1331/2.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="400" data-original-height="593" data-original-width="1331" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoz46e_azbfL6S0yDvLPKQLjQNgP3uJANlSha2kvGpcsvzn30lwUrRctjg6Wtqrnpf7AmCczMqWrpjlcRWAtHm6NvhpwSr0j5b_y4ElfQQUcIQFJciLmcsrnd_AzCOBZuRpSJVeWOBKFruvkMB1-vCQzQq6kd3Y5nsiKGaBr8T-EZtaReLRYVFPgfdRw/s400/2.png"/></a></div><div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0gRHauIDfanMyQAwisKNZi1AH-hZq1rxXNdQoAGzXBm9YAPDjAYOXnH6vYvIXll1fiss75dq3D7q_Xgo36OHa7sVsiEPX6YV5ijzYSSC_wKJG-IRWLdYJ3zPEm3TrmwoPwTPwQ_8J9jN-NbXHyFjLMInTVo2TAXrzVycHkUe_-bc7La7udWHPhe5_4g/s527/3.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" height="400" data-original-height="527" data-original-width="357" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0gRHauIDfanMyQAwisKNZi1AH-hZq1rxXNdQoAGzXBm9YAPDjAYOXnH6vYvIXll1fiss75dq3D7q_Xgo36OHa7sVsiEPX6YV5ijzYSSC_wKJG-IRWLdYJ3zPEm3TrmwoPwTPwQ_8J9jN-NbXHyFjLMInTVo2TAXrzVycHkUe_-bc7La7udWHPhe5_4g/s400/3.png"/></a></div>
